@@ -1,0 +1,293 @@
+
+.navbar-light .navbar-nav .nav-link {
+  color: #204f87;
+  font-size:18px;
+  font-weight: 500;
+ }
+  .navbar-light .navbar-nav .nav-link:hover {
+   color: red;
+ }
+ .banner{
+   background-image: url(../images/banner.png);
+   background-size: cover;
+   background-position:center;
+   min-height: 90vh;
+   background-repeat: no-repeat;
+   position: relative;
+ }
+ .banner-content h1{
+ color: #fff;
+ text-transform: uppercase;
+ font-size:57px;
+ }
+ .hg{
+   min-height: 90vh;
+   align-items: center;
+ }
+ .arrow_icon{
+  position:absolute;
+  top: 90%;
+  left: 50%;
+  color: rgb(248, 246, 246);
+  font-size: 30px;
+  transform: translatex(-50%);
+  animation:updown 1s linear infinite;
+  animation-direction: alternate;
+}
+  
+@keyframes updown{
+  0%{
+ top:90%;
+  }
+ 100%{
+ top:85%;
+ }
+}
+ 
+.who-we-are h1{
+  color: #28377e;
+  text-transform: uppercase;
+  font-size: 30px;
+ }
+ .who-we-are:hover span{
+  width:50px;
+ }
+
+
+
+ .who-we-are span{
+ height: 5px;
+ width: 0px;
+ background-color: #f15929;
+ display: inline-block;
+ transition:.4s all ease-in-out ;
+ }
+ .who-we-are p{
+   color:#b0b0b1;
+ }
+ .what-we-do{
+background-color: #f7f8f8;
+background-image:url(../images/what.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: bottom right;
+background-size:750px;
+
+ }
+ .what-we-do:hover .heading span{
+   width:50px;
+ }
+ 
+ .heading{
+
+ }
+ .heading span{
+height:5px;
+width:0px;
+display: inline-block;
+background-color: #f15929;
+transition:.4s all ease-in-out;
+}
+.heading h1{
+  color: #28377e;
+  text-transform: uppercase;
+  font-size:30px;
+}
+.asilo-img{
+   position: relative;
+}
+.asilo-img::before{
+   content:"";
+   position: absolute;
+   bottom:0;
+   left:0;
+   height:0%;
+   width: 100%;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b8e1fc+0,28377e+100&0+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(184,225,252,0) 0%, rgba(40,55,126,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(184,225,252,0) 0%,rgba(40,55,126,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(184,225,252,0) 0%,rgba(40,55,126,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b8e1fc', endColorstr='#28377e',GradientType=0 ); /* IE6-9 */
+transition:.4s all ease-in-out;
+}
+.asilo-img:hover::before{
+  height: 100%;
+}
+.tittle{
+position: absolute;
+top:60%;
+left:50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+transition: .4s all ease-in-out;
+}
+.tittle h1{
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  
+}
+.asilo-img:hover .tittle{
+  opacity:1;
+  top: 50%;
+}
+.icon{
+  position: absolute;
+  color:#fff;
+  top:80%;
+  left:60%;
+  font-size: 30px;
+  transform:translatex(-50%);
+  opacity: 0;
+  transition: .4s all ease-in-out;
+}
+.asilo-img:hover .icon{
+  opacity:1;
+  left: 50%;
+}
+
+
+.bonds-img{
+  position: relative;
+}
+.bonds-img::before{
+  content:"";
+  position: absolute;
+  bottom:0;
+  left:0;
+  height:0%;
+  width: 100%;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b8e1fc+0,28377e+100&0+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(184,225,252,0) 0%, rgba(40,55,126,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(184,225,252,0) 0%,rgba(40,55,126,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(184,225,252,0) 0%,rgba(40,55,126,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b8e1fc', endColorstr='#28377e',GradientType=0 ); /* IE6-9 */
+transition:.4s all ease-in-out;
+}
+.bonds-img:hover::before{
+ height: 100%;
+}
+.tittle1{
+position: absolute;
+top:60%;
+left:50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+transition: .4s all ease-in-out;
+}
+.tittle1 h1{
+ color: #fff;
+ font-size: 24px;
+ text-transform: uppercase;
+ 
+}
+.bonds-img:hover .tittle1{
+ opacity:1;
+ top: 50%;
+}
+.icon1{
+ position: absolute;
+ color:#fff;
+ top:80%;
+ left:60%;
+ font-size: 30px;
+ transform:translatex(-50%);
+ opacity: 0;
+ transition: .4s all ease-in-out;
+}
+.bonds-img:hover .icon1{
+ opacity:1;
+ left: 50%;
+}
+
+.permison-img{
+  position: relative;
+}
+.permison-img::before{
+  content:"";
+  position: absolute;
+  bottom:0;
+  left:0;
+  height:0%;
+  width: 100%;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b8e1fc+0,28377e+100&0+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(184,225,252,0) 0%, rgba(40,55,126,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(184,225,252,0) 0%,rgba(40,55,126,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(184,225,252,0) 0%,rgba(40,55,126,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b8e1fc', endColorstr='#28377e',GradientType=0 ); /* IE6-9 */
+transition:.4s all ease-in-out;
+}
+.permison-img:hover::before{
+ height: 100%;
+}
+.tittle2{
+position: absolute;
+top:60%;
+left:50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+transition: .4s all ease-in-out;
+}
+.tittle2 h1{
+ color: #fff;
+ font-size: 24px;
+ text-transform: uppercase;
+ 
+}
+.permison-img:hover .tittle2{
+ opacity:1;
+ top: 50%;
+}
+.icon2{
+ position: absolute;
+ color:#fff;
+ top:80%;
+ left:60%;
+ font-size: 30px;
+ transform:translatex(-50%);
+ opacity: 0;
+ transition: .4s all ease-in-out;
+}
+.permison-img:hover .icon2{
+ opacity:1;
+ left: 50%;
+}
+
+ .attorneys:hover span{
+  width:50px;
+ }
+
+
+
+ .attorneys span{
+ height: 5px;
+ width: 0px;
+ background-color: #f15929;
+ display: inline-block;
+ transition:.4s all ease-in-out ;
+ }
+.attorneys{
+background-image: url(../images/grouppic.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+min-height: 500px;
+}
+.attorneys .heading{
+  color:#fff;
+}
+.attorneys .heading p{
+  color:#929dcf;
+}
+.attorneys .heading span{
+  
+}
+.attorneys-img{
+
+}
+.attorneys-content{
+
+}
+.attorneys-content h4{
+
+}
